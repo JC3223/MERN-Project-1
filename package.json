@@ -1,0 +1,22 @@
+{
+  "name": "mern-project-1",
+  "version": "1.0.0",
+  "description": "This is a full-stack web applications using MongoDB, Express.js, React, and Node.js. \r It is meant to resemble a e-commerce store that lets you add/delete items.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "proxy": "http://localhost:5000"
+}
